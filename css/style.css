@@ -687,6 +687,10 @@ font-family: "DM Sans2";
 .question .accordion-button::after {
   margin-right: 0;
 }
+html[dir="rtl"] .question .accordion-button::after {
+  margin-right: auto;
+  margin-left: 0;
+}
 .question .accordion-body {
   padding: 1rem 1.7rem 2rem;
   font-size: 16px;
